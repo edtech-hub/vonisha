@@ -27918,8 +27918,9 @@ api:function api(a){this.a=a},
 aoV:function aoV(a){this.a=a},
 aoW:function aoW(a){this.a=a},
 ap6:function ap6(a){this.a=a},
-apj:function apj(a,b){this.a=a
-this.b=b},
+apj:function apj(a,b,c){this.a=a
+this.b=b
+this.c=c},
 aoU:function aoU(a,b){this.a=a
 this.b=b},
 apk:function apk(){},
@@ -96130,7 +96131,7 @@ q=A.j(q,b3,b3,b3,A.e(b3,b3,c1?B.j:B.o,b3,b3,b3,b3,b3,b3,b3,b3,30,b3,b3,B.p,b3,b3
 p=A.dE(b3,A.aH(B.pt,c1?B.j:B.o,b3,28),new A.api(b9),b3,"Edit Student Details")
 o=A.f(b3,b3,b8)
 n=A.du(b3,b3,B.bf,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,B.aD,b3,b3,b3,b3,b3)
-m=b9.p3?b3:new A.apj(c2,c1)
+m=b9.p3?b3:new A.apj(b9,c2,c1)
 n=A.o(A.a([r,q,B.bX,p,o,A.cY(new A.G(B.a7,A.o(A.a([A.aH(B.IX,B.f,b3,20),B.Tn,A.j(" Send Reset Link ",b3,b3,b3,B.bY,b3,b3)],s),B.d,B.e,B.c),b3),m,n)],s),B.d,B.e,B.c)
 b4*=0.02
 m=A.f(b3,b4,b3)
@@ -96287,7 +96288,8 @@ s.rx=!1},
 $S:0}
 A.apj.prototype={
 $0(){A.kL(null)
-new A.ca(A.ct(null),"https://api.edastra.in").wW(A.cK("t"),"Aditya","adis3778.aa@gmail.com").c4(new A.aoU(this.a,this.b))},
+var s=this.a
+new A.ca(A.ct(null),"https://api.edastra.in").wW(A.cK("t"),J.u(J.u(s.xr,s.x),"name"),J.u(J.u(s.xr,s.x),"email")).c4(new A.aoU(this.b,this.c))},
 $S:0}
 A.aoU.prototype={
 $1(a){var s=$.cm()
