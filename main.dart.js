@@ -102055,7 +102055,7 @@ f=b.i(a,"role")
 f=A.h(A.j(f,d,d,d,A.e(d,d,h?B.l:B.k,d,d,d,d,d,d,d,d,18,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),d,k*0.18)
 e=A.h(new A.J(B.d5,A.j(J.f(b.i(a,"salaryScheme"),"TDS Scheme")?A.l(l)+" Rs.":A.l(o+n)+" Rs.",d,d,d,B.ec,d,d,d),d),d,k*0.15)
 b=t.p
-j=A.q(A.a([i,g,f,e,A.h(A.j("Not Due",d,d,d,A.e(d,d,h?B.l:B.k,d,d,d,d,d,d,d,d,16,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),d,j)],b),B.d,B.e,B.b)
+j=A.q(A.a([i,g,f,e,A.h(A.j("Paid",d,d,d,A.e(d,d,h?B.l:B.k,d,d,d,d,d,d,d,d,16,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),d,j)],b),B.d,B.e,B.b)
 k=A.a_(A.a([j,B.aF,new A.J(B.ac,A.a4(d,d,B.p,h?B.x:B.ak,d,d,d,0.4,d,d,d,d,k),d)],b),B.d,B.e,B.b)
 j=A.aH(B.dV,h?B.i:B.k,d,22)
 return A.bX(B.nN,A.a([k,A.bV(A.bv(d,new A.J(B.dQ,A.a_(A.a([j,A.j("Calculation Formula",d,d,d,A.e(d,d,h?B.i:B.k,d,d,d,d,d,d,d,d,11,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d)],b),B.d,B.e,B.b),d),B.v,!1,d,d,d,d,d,d,d,d,d,d,d,d,new A.aIh(c,s,r,q,p,o,n,a,m,l,30),d,d,d,d),B.a3,d,d,d,d)],b),B.w,B.Y,d)},
